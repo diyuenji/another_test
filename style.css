@@ -1,1 +1,62 @@
 
+.container {
+  border: 1px solid #cccccc;
+  border-radius: 20px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 550px;
+  height: 350px;
+}
+
+.but {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 5px;
+  margin:auto;
+}
+
+.button {
+  height: 50px;
+  background-color: #ffffff;
+  border: 0.5px solid #000000;
+  font-size: 2rem;
+  color: #000000;
+}
+
+
+.operator {
+  color: #000000;
+  background-color: #c6c6c6;
+}
+
+
+
+
+.equal-sign {
+  background-color: #f2ff00;
+}
+
+
+.screen{
+  background-color:rgb(202, 240, 250);
+  justify-content: left;
+  color: black;
+  font-size: 40px;
+  width: 80%;
+  height: 30%;
+  cursor: default;
+  padding: 10px; 
+  padding-left: 40%;
+  margin: auto;
+  margin-bottom: 10px;
+}
+.delete {
+  background-color: #f0595f;
+  border-color: #b0353a;
+  width: 90px;
+  height: 80px;  
+  margin: auto;
+  margin-bottom: 10px;
+}
